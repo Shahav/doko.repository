@@ -29,3 +29,18 @@
     <platform>all</platform>
   </extension>
 </addon>
+
+<addon id="plugin.program.orderfavourites" name="Order Favourites" version="1.0.1" provider-name="doko">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en">Lets you reorder the entries in your Favourites.[CR]Use this to organize your Favourites.[CR][CR]- Use SAVE to commit your changes.[CR]- Use RESET to reload the favourites file and start over.</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
