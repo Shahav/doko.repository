@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="doko.repository" name="Incursion Repository" version="0.0.1" provider-name="doko">
+<addon id="doko.repository" name="Doko Repository" version="0.0.1" provider-name="doko">
 	<extension point="xbmc.addon.repository" name="Doko Repository">
 		<info compressed="false">https://raw.githubusercontent.com/doko/doko.repository/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/doko/doko.repository/master/addons.xml.md5</checksum>
