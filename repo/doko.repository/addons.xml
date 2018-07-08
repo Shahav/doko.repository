@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="doko.repository" name="Incursion Repository" version="0.0.1" provider-name="doko">
+	<extension point="xbmc.addon.repository" name="Doko Repository">
+		<info compressed="false">https://raw.githubusercontent.com/doko/doko.repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/doko/doko.repository/master/addons.xml.md5</checksum>
+    		<datadir zip="true">https://raw.githubusercontent.com/doko/doko.repository/master/repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Doko Kodi Add-ons</summary>
+		<description>Add-ons for Kodi</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.ctoonkodi" name="CTOON Kodi" version="0.3.0" provider-name="doko, Tikipeter">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en">[COLOR mediumpurple][B]CTOON Kodi[/B][/COLOR][CR][CR]A simple addon for streaming cartoon episodes from the [B]ctoon.party[/B] website.[CR][CR]Help keep CTOON alive, donate to the host: [COLOR khaki][B]ko-fi.com/A637AV5[/B][/COLOR]</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.orderfavourites" name="Order Favourites" version="1.0.1" provider-name="doko">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en">Lets you reorder the entries in your Favourites.[CR]Use this to organize your Favourites.[CR][CR]- Use SAVE to commit your changes.[CR]- Use RESET to reload the favourites file and start over.</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
