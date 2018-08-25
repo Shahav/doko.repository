@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.toonmania2" name="Toonmania2" version="0.2.0" provider-name="doko, MetalKettle">
+<addon id="plugin.video.toonmania2" name="Toonmania2" version="0.2.2" provider-name="doko, MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
     <import addon="script.module.requests" />
@@ -10,9 +10,9 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Toonmania2</summary>
-    <description lang="en">Watch cartoons and anime from [B]Animetoon[/B] and [B]Animeplus[/B].[CR][CR]Add-on by doko.</description>
+    <description lang="en">Watch cartoons and anime from [B]Animetoon[/B] (www.animetoon.org) and [B]Animeplus[/B] (animeplus.tv).[CR]Go pay them a visit![CR][CR]. Add-on by doko, based on MetalKettle's.</description>
     <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
-    <disclaimer lang="en">The authors of this addon do not host any of the content found or have any affiliation with the content providers.</disclaimer>
+    <disclaimer lang="en">The authors of this addon do not host any of the content found or have any affiliation with the content providers or the websites that it scrapes information from.</disclaimer>
   </extension>
 </addon>
